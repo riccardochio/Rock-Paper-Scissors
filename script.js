@@ -18,7 +18,7 @@ function getHumanChoice(){
 
 function playRound(humanChoice, computerChoice){
     if(humanChoice === computerChoice){
-        console.log("You draw!");
+        console.log("It's a tie!");
         return;
     }
 
